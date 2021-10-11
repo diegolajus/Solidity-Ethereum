@@ -16,5 +16,7 @@ contract WriteIntoBlockchain {
     }
 
     // Esta funcion no va a modificar informacion en la blockchain
-    function Read ()
+    function Read () public view returns(strings memory){
+        return text
+    }
 }
